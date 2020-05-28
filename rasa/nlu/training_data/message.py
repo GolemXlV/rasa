@@ -11,6 +11,11 @@ from rasa.nlu.constants import (
 from rasa.nlu.utils import ordered
 
 
+INTENT_RANKING_KEY = "intent_ranking"
+INTENT_KEY = "intent"
+INTENT_CONFIDENCE_KEY = "confidence"
+
+
 class Message:
     def __init__(
         self, text: Text, data=None, output_properties=None, time=None, **kwargs
